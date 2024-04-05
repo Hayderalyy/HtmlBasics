@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <title>Qualifications</title>
+    <table border="1">
+        <caption>Student Qualifications</caption>
+        <tr>
+            <th>Place</th>
+            <th>Medium</th>
+            <th>cGPA</th>
+        </tr>
+        <tr>
+            <td>College</td>
+            <td>bTECH</td>
+            <td>9.7</td>
+        </tr>
+        <tr>
+            <td>School</td>
+            <td>Class12<sup>TH</sup></td>
+            <td>9.0</td>
+        </tr>
+        <tr>
+            <td>School</td>
+            <td>Class10<sup>TH</sup></td>
+            <td>10</td>
+        </tr>
+        <tr> 
+            <td colspan="3">
+            5 Years+ experience
+            </td>
+        </tr>
+    </table>
+    <form action="/submit.php" method="post">
+        Name: <input type="text" placeholder="xyz@gmail.com" required="true"> <br>
+        Password: <input type="password"> 
+        <input type="submit" value="submit">
+    </form>
+    <form>
+        <label for="username">Username:</label>
+        <input type="Text" name="Username" id="username">
+        <input type="file" name="File">
+    </form>
+    <form>
+        <label for="Male">Male:<input type="radio" name="gender" id="Male"></label>
+        <label for="Female">Female:<input type="radio" name="gender" id="Female"></label>
+        <label for="other">other:<input type="radio" name="gender" id="other"></label>    
+    </form>
+    <form>
+        <label for="java">java:<input type="checkbox" name="lang" id="java"></label>
+        <label for="python">python:<input type="checkbox" name="lang" id="python"></label>
+        <label for="c">c:<input type="checkbox" name="lang" id="c"></label>    
+    </form>
+    <form>
+        <label for="year">Which Year?</label>
+        <select id="year" name="year">
+            <option>2024</option>
+            <option>2023</option>
+            <option>2022</option>
+            <option>2021</option>
+            <option>2020</option>
+            <option>2019</option>
+            <option>2018</option>
+            <option>2017</option>
+        </select>
+    </form>
+    <textarea rows="2" cols="40">
+Please wirte a story
+    </textarea>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rklidcZ-aLU?si=7CBI2rl3oaKS7qPZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
